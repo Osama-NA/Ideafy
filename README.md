@@ -1,7 +1,7 @@
 # Ideafy
 Idea Generator | Using PHP, MYSQL, HTML, CSS
  
-/* Design Is Not Responsive As It Is My First Backend + Frontend Project, done in 2020 */
+/* Design Is Not Responsive */
  
 Ideafy helps you find ideas quickly.
 
