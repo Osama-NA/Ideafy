@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    background-color: #ff5757;
+    position: relative;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+
+/* NAV */
+
+
+
+#nav{
+    width: 100%;
+    position: relative;
+    background-color: black;
+    height: 5rem;
+    position: absolute;
+    top: 0;
+}
+
+#back,#clear,#signout{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    display: inline-block;
+    position: absolute;
+    right: 60px;
+    top: 28px;
+    font-weight: lighter;
+    transition: all 0.3s ease;
+    border-bottom: 1px solid black;
+}
+#back{
+    right: 200px;
+}
+
+#clear{
+    right:350px;
+}
+
+#back:hover,#clear:hover,#signout:hover{
+    border-bottom: 1px solid white;
+}
+
+#logo{
+    display: inline-block;
+    position: absolute;
+    width: 65px;
+    height: 75px;
+    left: 15px;
+    top:4.5px;
+}
+
+#title{
+    font-weight: bold;
+    font-size: 30px;
+    display: inline-block;
+    position: absolute;
+    left: 90px;
+    top: -12px;
+    color: white;
+}
+
+/* IDEAS */
+
+#gen-ideas{
+
+    color: white;
+    text-shadow: 1px 2px 3px black;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#ideas{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.idea{
+    position: relative;
+    margin: 1% 0 1% 29%;
+    color: #000000;
+    width: 40%;
+    padding: 0.5rem 1rem;
+    font-size: 20px;
+    border-radius: 15px;
+    font-weight: lighter; 
+    word-wrap: break-word;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 4px 0px black;
+    transition: all 0.6s ease;
+}
+
+.idea p{
+    width: 90%;
+    padding: 0 1rem;
+}
+
+.delete{ 
+    position: absolute;
+    top: 40%;
+    right: 2rem;
+    color: #ff5757;
+    font-size: 16px;
+    margin-left: 2rem;
+    transition: all 0.6s ease;
+    cursor: pointer;
+}
+
+.delete:hover{
+    color: #000000;
+}
+
+.onDelete{
+    transform: translateX(50%);
+    opacity: 0;
+}
+
+
+
+/* SAVED IDEAS BACKGROUND */
+
+#saved-ideas-Bg {
+    background-image: url("../images/saved-ideasBg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    bottom: 3rem;
+    left: -2rem;
+}
+
+
+/* FOOTER */
+
+
+
+#footer{
+    width: 100%;
+    height: 3.5rem;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 10px;
+    margin-top: 40rem;
+}

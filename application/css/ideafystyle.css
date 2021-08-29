@@ -1,0 +1,229 @@
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    background-color: #ff5757;
+    position: relative;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 1000px;
+}
+
+/* NAV */
+
+
+
+#nav{
+    position: relative;
+    background-color: black;
+    height: 5rem;
+}
+
+#signin,#signup{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    display: inline-block;
+    position: absolute;
+    right: 60px;
+    top: 28px;
+    font-weight: lighter;
+    transition: all 0.3s ease;
+    border-bottom: 1px solid black;
+}
+
+#signup{
+    right: 160px;
+}
+#signin:hover,#signup:hover{
+    border-bottom: 1px solid white;
+}
+
+#logo{
+    display: inline-block;
+    position: absolute;
+    width: 65px;
+    height: 75px;
+    left: 15px;
+    top:4.5px;
+}
+
+#title{
+    font-weight: bold;
+    font-size: 30px;
+    display: inline-block;
+    position: absolute;
+    left: 90px;
+    top: -12px;
+    color: white;
+}
+
+
+/* BRAIN-LAMP IMAGE */
+
+
+#brainlamp-img{
+    background-image: url("../images/lamp logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 78px;
+    height: 93px;
+    margin-left: 47.5%;
+    margin-top: 12%;
+}
+
+/* IDEA-GENERATOR */
+
+
+#id-gen-title{
+    color: white;
+    text-shadow: 1px 2px 3px black;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+form{
+    background-color: white;
+    width: 26rem;
+    height: 3.4rem;
+    border-radius: 15px;;
+    position: relative;
+    margin-left: 36.5%;
+    margin-bottom: 3rem;
+}
+
+#lamp-icon{
+    display: inline-block;
+    background-image: url("../images/lamp-icon.png");
+    background-size: cover; 
+    width: 20px;
+    height: 26px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    border: none;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;  
+    -moz-appearance: none;
+    cursor: pointer;
+}
+
+#idea-generator label{
+    color: rgb(92, 92, 92);
+    position: absolute;
+    top: 18px;
+    left: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+#idea-generator label:after{
+    content: "";
+    width: 1.3px;
+    height: 33px;
+    position: absolute;
+    background-color: rgb(92, 92, 92);
+    left: 62px;
+    top: -5.5px;
+    border-radius: 20%;
+}
+
+#idea-generator select{
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+
+    border: none;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;  
+    -moz-appearance: none;
+
+    position: absolute;
+    top: 10px;
+    left: 105px;
+    width: 16rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    color: rgb(92, 92, 92);
+}
+
+#select{
+    margin: 1rem;
+    overflow: hidden;
+}
+
+#select::after{
+    content: "\25BC";
+    position: absolute;
+    top: 18px;
+    right: 55px;
+    pointer-events: none;
+    color: rgb(92, 92, 92);
+    transition: all 0.3s ease;
+}
+
+/* IDEAS */
+
+#ideas{
+    width: 100%;
+}
+
+.idea{
+    text-align: center;
+    position: relative;
+    margin: 1% 0 1% 29%;
+    color: #000000;
+    width: 40%;
+    padding: 0.5rem 1rem;
+    font-size: 20px;
+    border-radius: 30px;
+    font-weight: lighter; 
+    word-wrap: break-word;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 4px 0px black;
+    transition: all 0.6s ease;
+}
+
+/* FOOTER */
+
+
+
+#footer{
+    width: 100%;
+    height: 3.5rem;
+    margin-top: 8rem;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    background-color: black;
+    color: white;
+    font-size: 10.5px;
+}
+
+#footer-text{
+    margin-top: 1.4rem;
+    margin-left: 5rem;
+    display: inline;
+    float: left;
+}
+#signin-footer{
+    display: inline;
+    color: white;
+    float: right;
+    margin-top: 1.4rem;
+    margin-right: 6.5rem;
+    word-spacing: 1px;
+}
+#signin-footer i{
+    position: absolute;
+    right: 5rem;
+    top: 1.45rem;
+    font-size: 15px;
+    color: #ff5757;
+}
